@@ -2,18 +2,18 @@
 
 git config --global user.name "Seu Nome" → define seu nome
 git config --global user.email "seu@email.com" → define seu email
-📁 Criar e clonar repositórios
+# 📁 Criar e clonar repositórios
 git init → inicia um repositório local
 git clone <url> → copia um repositório remoto
-📌 Controle de mudanças
+# 📌 Controle de mudanças
 git status → mostra o estado atual dos arquivos
 git add <arquivo> → adiciona arquivo para staging
 git add . → adiciona tudo
 git commit -m "mensagem" → salva as mudanças
-🔍 Histórico
+# 🔍 Histórico
 git log → mostra histórico de commits
 git log --oneline → versão resumida
-🌿 Branches (ramificações)
+# 🌿 Branches (ramificações)
 git branch → lista branches
 git branch <nome> → cria nova branch
 git checkout <nome> → troca de branch
