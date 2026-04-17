@@ -43,7 +43,7 @@ public class Usuarioservice {
         return false;
     }
 
-    public Usuario cadastrarUsuariol(Usuario usuario) {
+    public Usuario cadastrarUsuario(Usuario usuario) {
 
         return Usuariorepository.save(usuario);
 
